@@ -9,7 +9,15 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-  		colors: {},
+  		colors: {
+			primary: '#0E5CAD',
+			secondary: '#6bffa0',
+			fontDark: '#252525',
+			fontLight: '#ccc',
+		  },
+		  fontFamily: {
+			nunito: ["'Nunito', sans-serif"],
+		  },
   		keyframes: {
   			'accordion-down': {
   				from: {
