@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import 'tailwindcss/tailwind.css';
 
 const LiveEditor = () => {
   const [html, setHtml] = useState('');
